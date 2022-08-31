@@ -1,0 +1,32 @@
+#barra{
+    display: flex;
+    justify-content: center;
+    background-color: $colorpage;
+    color: rgb(255, 255, 255);
+    a{
+        background-color:$colorpage;
+        color: rgb(255, 255, 255);  
+        &:hover {
+            background-color: #3d38a8;
+        }
+    }   
+}
+span{
+    background-color: rgb(255, 255, 255);
+}
+#navbarNav{
+    flex: auto;
+    ul{
+        flex: auto;
+    li{
+        flex: auto;
+        text-align: center
+        }
+    }
+}
+
+@media (min-width: 1000px) { 
+    .navbar-brand{
+        display: none;
+    }
+}

@@ -1,0 +1,12 @@
+#bottom a{
+    display: flex;
+    border-radius:20px;
+    padding: 15px;
+    font-size: small;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(8, 216, 36);
+    &:hover{
+        background-color: rgb(19, 102, 44);
+    }
+}
