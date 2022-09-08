@@ -1,10 +1,10 @@
 #barra{
     display: flex;
     justify-content: center;
-    background-color: $colorpage;
+    background-color:map-get($color,colorpagee);
     color: rgb(255, 255, 255);
     a{
-        background-color:$colorpage;
+        background-color:map-get($color,colorpagee);
         color: rgb(255, 255, 255);  
         &:hover {
             background-color: #3d38a8;

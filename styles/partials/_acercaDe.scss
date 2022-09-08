@@ -1,0 +1,23 @@
+#cartas{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: auto;
+    #bloqCard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 80%;
+        margin:auto;
+        .card{
+            background-color:map-get($color,colorpagee) ;
+            color: white;
+            border:solid 5px  rgb(255, 255, 255);
+            #mifoto{
+                border: solid 3px white;
+                border-radius:60px; 
+            }
+        }
+    }
+}

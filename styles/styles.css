@@ -1,12 +1,36 @@
+.btn {
+  background-color: rgb(124, 180, 184);
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+}
+
 header div h1 {
   align-self: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+main {
+  height: 100vh;
+  background-image: url(../img/estatua_libertad.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 footer {
   display: flex;
   justify-content: center;
-  color: rgb(255, 255, 255);
+  align-items: center;
+  height: 40px;
   background-color: #1C1B35;
+}
+footer h6 {
+  color: rgb(255, 255, 255);
 }
 
 #barra {
@@ -43,17 +67,6 @@ span {
     display: none;
   }
 }
-main {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  height: 100vh;
-  background-image: url(../img/estatua_libertad.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 #bottom a {
   display: flex;
   border-radius: 20px;
@@ -65,4 +78,142 @@ main {
 }
 #bottom a:hover {
   background-color: rgb(19, 102, 44);
+}
+
+#formulario {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+#formulario .fonfoform {
+  background-color: #1C1B35;
+  text-decoration: underline;
+  border: 2px solid;
+  padding: 10px;
+}
+
+#cartas {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  margin: auto;
+}
+#cartas #bloqCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+}
+#cartas #bloqCard .card {
+  background-color: #1C1B35;
+  color: white;
+  border: solid 5px rgb(255, 255, 255);
+}
+#cartas #bloqCard .card #mifoto {
+  border: solid 3px white;
+  border-radius: 60px;
+}
+
+#cartas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vh;
+  height: 100VH;
+}
+#cartas .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19rem;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+#cartas .card #card-body {
+  margin: 5px;
+  border-radius: 6px;
+  background-color: #1C1B35;
+  color: white;
+}
+#cartas .card #card-body .titulo {
+  color: black;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+#cartas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vh;
+  height: 100VH;
+}
+#cartas .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19rem;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+#cartas .card #card-body {
+  margin: 5px;
+  border-radius: 6px;
+  background-color: #1C1B35;
+  color: white;
+}
+#cartas .card #card-body .titulo {
+  color: black;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+@media screen and (min-width: 320px) and (orientation: landscape) {
+  #cartas {
+    font-size: small;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vh;
+    height: 100VH;
+  }
+  #cartas .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    border: solid 2px black;
+    border-radius: 10px;
+  }
+  #cartas .card #card-body {
+    margin: auto;
+    border-radius: 6px;
+    background-color: #1C1B35;
+    color: white;
+  }
+  #cartas .card #card-body .titulo {
+    color: black;
+    display: flex;
+    align-items: center;
+    align-self: center;
+  }
+}
+@media screen and (min-width: 320px) and (orientation: landscape) {
+  .card {
+    width: 25rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

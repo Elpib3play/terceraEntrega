@@ -1,0 +1,9 @@
+@mixin botonescolor ($bg,$textcolor,$bc){
+    background-color:$bg;
+    color: $textcolor;
+    border-color: $bc;
+
+}
+.btn{
+    @include botonescolor (rgb(124, 180, 184), rgb(255, 255, 255),rgb(255, 255, 255));    
+}

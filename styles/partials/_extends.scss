@@ -1,0 +1,12 @@
+%flexRowCenter{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+%imageCenter{
+    height:100vh;
+    background-image: url(../img/estatua_libertad.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
