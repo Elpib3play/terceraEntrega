@@ -16,13 +16,11 @@
             margin:5px;
             border-radius: 6px;
             background-color: map-get($color,colorpagee);
-            color: white;
-            .titulo{ 
-                color: black;
-                display: flex;
-                align-items: center;
-                align-self: center;
+            color: rgb(255, 255, 255);
+            .spn{
+                background-color: map-get($color,colorpagee);
+                color:map-get($color,colorpagee);
             }
         }
-    }        
+    }
 }

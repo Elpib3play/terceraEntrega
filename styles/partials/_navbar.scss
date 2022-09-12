@@ -1,3 +1,6 @@
+#botonMenu{
+    border: 1px solid white;
+}
 #barra{
     display: flex;
     justify-content: center;
@@ -25,8 +28,3 @@ span{
     }
 }
 
-@media (min-width: 1000px) { 
-    .navbar-brand{
-        display: none;
-    }
-}

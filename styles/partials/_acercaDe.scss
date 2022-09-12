@@ -12,10 +12,10 @@
         margin:auto;
         .card{
             background-color:map-get($color,colorpagee) ;
-            color: white;
+            color: rgb(255, 255, 255);
             border:solid 5px  rgb(255, 255, 255);
             #mifoto{
-                border: solid 3px white;
+                border: solid 3px rgb(255, 255, 255);
                 border-radius:60px; 
             }
         }
