@@ -216,6 +216,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: small;
     width: 30rem;
     border: solid 2px black;
     border-radius: 10px;
@@ -253,7 +254,7 @@ body {
     background-color: #1C1B35;
     text-decoration: underline;
     border: 2px solid;
-    padding: 2px;
+    padding: 5px;
   }
   #formulario .fonfoform label {
     font-size: small;
