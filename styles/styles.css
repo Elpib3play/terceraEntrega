@@ -66,22 +66,25 @@ span {
   text-align: center;
 }
 
-#bottom a {
+#boton a {
   display: flex;
   border-radius: 20px;
   padding: 15px;
-  font-size: small;
+  font-size: 18px;
   color: rgb(255, 255, 255);
   text-decoration: none;
   background-color: rgb(8, 216, 36);
 }
-#bottom a:hover {
+#boton a:hover {
   background-color: rgb(19, 102, 44);
 }
 
-#formulario {
+#formC {
   display: flex;
-  margin-left: 1px;
+  justify-content: center;
+}
+
+#formulario {
   height: 100vh;
   align-items: center;
   color: rgb(255, 255, 255);
@@ -213,7 +216,7 @@ body {
     width: 25rem;
   }
 }
-@media screen and (min-width: 300px) and (orientation: landscape) {
+@media screen and (max-width: 300px) and (orientation: landscape) {
   #formulario {
     display: flex;
     margin-left: 1px;

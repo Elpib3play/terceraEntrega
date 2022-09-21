@@ -41,7 +41,7 @@
         width:25rem;
     }
 }    
-@media screen and (min-width:300px) and (orientation:landscape) {
+@media screen and (max-width:300px) and (orientation:landscape) {
     #formulario{
         display: flex;
         margin-left: 1px;
